@@ -1,0 +1,111 @@
+html, body, #navMenu, #navMenu2, ul, li {
+margin: 0;
+padding: 0;
+}
+
+body{
+position: relative;
+width: 100%;
+}
+/* First Menu Styles */
+
+#navMenu ul {
+width: 100%;
+background: #2D2D2D;
+height: 35px;
+list-style: none;
+padding-left: 20px;
+}
+
+#navMenu  li {
+
+float: left;
+padding : 10px;
+}
+
+#navMenu a {
+color: white;
+color: #BBBBBB; 
+font-size: 15;
+text-decoration: none;
+font: arial;
+}
+
+#navMenu li:nth-child(2) a {
+color: white;
+font-size: 16; 
+}
+
+
+/* Google Image style */
+
+.googImage {
+margin: 80px auto 20px auto;
+display: block;
+width: 275px;
+height: 95px;
+}
+
+/* text box */
+
+form input{
+width: 500px;
+height: 20px;
+display: block;
+margin: 0 auto;
+
+}
+
+/* buttons */
+
+#buttons {
+margin: 10px 450px 10px 550px;
+width: 400px;
+}
+
+#buttons  button {
+margin: 0 10px;
+background: #F4F4F4;
+border: 1px solid gray;
+color: #444444;
+padding: 2px;
+font-size: 13;
+}
+
+#buttons button + button {
+	margin-left: 20px;
+} 
+
+/* footer styles */
+
+footer {
+border-top: 2px solid #BBBBBB;
+position: absolute;
+top: 740px;
+right: 0;
+width: 100%
+}
+
+footer ul{
+position: absolute;
+width: 100%;
+list-style: none;
+}
+
+footer li {
+float: right;
+margin-top: 5px;
+padding: 0 15px;
+}
+
+footer a {
+color: #666666;
+font-size: 14;
+}
+
+footer li:first-child {
+margin-right: 60px;
+}
+
+
+ 
