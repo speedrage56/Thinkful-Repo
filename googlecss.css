@@ -3,6 +3,10 @@ margin: 0;
 padding: 0;
 }
 
+html, body {
+height: 100%;
+}
+
 body{
 position: relative;
 width: 100%;
@@ -50,7 +54,7 @@ height: 95px ;
 
 form input{
 width: 500px;
-height: 20px;
+height: 25px;
 display: block;
 margin: 0 auto;
 
@@ -59,7 +63,7 @@ margin: 0 auto;
 /* buttons */
 
 #buttons {
-margin: 10px 420px 10px 580px;
+margin: 10px 40%;
 width: 400px;
 }
 
@@ -82,13 +86,12 @@ font-weight: bold;
 footer {
 border-top: 2px solid #EBEBEB;
 position: absolute;
-top: 740px;
+bottom: 0;
 right: 0;
 width: 100%
 }
 
 footer ul{
-position: absolute;
 width: 100%;
 list-style: none;
 }
